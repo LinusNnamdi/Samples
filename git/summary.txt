@@ -47,7 +47,7 @@ git add <file_name> command is adds our file to the staging area, as shown in th
 git branch command prints out all the branches you have with the branch name with asterisk being the branch you are presently on.
 git branch any_name command is used to create a new branch.
 git checkout branch_name command is used to switch from present branch to another branch.
-git commit –m “small description about the file” command adds/commits your file that was added with git add command to your local repo.
+git commit –m “small description about the file” command adds/commits your file that are added to the staging area with git add command to your local repo.
 git config --global user.email  “EarnDee1@gmail.com” command isused to set your git account email address.
 git config --global user.name “EarnDee” command set your git account Username.
 git config -l command is used to list out all configurations u have made like user.name, user.email, … etc.
