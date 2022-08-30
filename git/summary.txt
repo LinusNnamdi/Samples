@@ -42,6 +42,7 @@ COMMANDS AND THEIR USES
  
 Image of git repo stages.
 EDITING COMMANDS: 
+git add . command is used to add every file that are not added to a specific branch that you on but when you use the file_name instead of “.”, as in the below, it will add only that file.
 git add <file_name> command is adds our file to the staging area, as shown in the above image.
 git branch command prints out all the branches you have with the branch name with asterisk being the branch you are presently on.
 git branch any_name command is used to create a new branch.
@@ -53,7 +54,7 @@ git config -l command is used to list out all configurations u have made like us
 git clone the_link_you_copied is downloads a repository to your local device.
 git fork … create original copy of a repository to your github account. 
 git init command is used to initialize a new repository in git locally(without internet).
-git log command gives you a summary of all the commits, like time, id, email,… etc.  
+git log/log branch_name  command gives you a summary of all the commits, like time, id, email, associated to the branch you are in or you specified.  
 git log --oneline command helps to print out log info in single line for each commit.
 git log --online branch_name command helps you to print the log associated with the specified branch_name no matter the branch you are presently on.
 git ls-file command list all available files that can be seen by git in your repo( local or remote). uncommitted files can’t be seen.
