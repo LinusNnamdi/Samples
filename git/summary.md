@@ -62,10 +62,14 @@ git log --online branch_name command helps you to print the log associated with 
 git ls-file command list all available files that can be seen by git in your repo( local or remote). uncommitted files can’t be seen.
 git merge branch_name command is used to merge a particular branch (branch_name)with branch that you presently on.
 git pull origin master command pulls remote repo to your local repo for you to easily make change and test.
+git push origin --delete master command is used to delete the master branch in the remote repository associated with origin.
 git push origin master command pushes your local repo changes to the remote/central repo. This will request for your Username and password for the remote repo. origin is the alias, which can be any name and master is the branch that you want to push it to.
+NB: if the remote repo is more updated than the local repo, you will require to pull b4 pushing.
 git rebase master command is used to change the base of the present branch to include what is in the master_branch , which will now have different address.
 git remote command is used to print out all the available remote repository name (alias).
 git remote add origin remote_repo_link command lets you link a remote repo with your local repo.
+git remote rename formal_alias new_alias command is used to rename a remote repo.
+git remote remove/rm alias command is used to remove a remote repository
 git remote -v command helps you to check if you have linked your remote repo to the local repo by printing out the remote repo path, like http…
 git show few_part_of _that_particular_commit_id command show more about the changes made by a particular commit done in the local or remote/central repo.
 Example:
